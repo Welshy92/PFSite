@@ -79,15 +79,15 @@ font-family: 'Raleway', sans-serif; - Brand title*/
 
 /* Index specific Styling */
 #phoenixfeather {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background: url(/media/images/base-arm.webp) no-repeat center center;
+    background-size: contain;
     max-width: 100vw;
     max-height: 75vh;
+    min-height: 75vh
 }
 
 #enter-site {
-    margin: 2vh 40vw 1vh 40vw;
+    margin: -5vh 40vw 1vh 40vw;
     width: 20%;
     height: 12.5vh;
     font-size: 50px;
@@ -126,10 +126,115 @@ font-family: 'Raleway', sans-serif; - Brand title*/
     margin: 0 20px 0 20px;
     background-color: rgba(255, 255, 255, 0.0);
     border-radius: 12px;
+    transition: color 1s;
+    transition: background-color 1s;
 }
 
 .index-button > a {
     text-decoration: none;
     color: #f0f8ff;
     font-family: 'Archivo', sans-serif;
+}
+
+#linkedin-button:hover {
+    background-color: #f0f8ff;
+    transition: background-color 1s;
+}
+
+#linkedin-button:hover > a {
+    color: #0A66C2;
+    transition: color 1s;
+}
+
+#github-button:hover {
+    background-color: black;
+    transition: background-color 1s;
+}
+
+#github-button:hover > a {
+    color: #f0f8ff;
+    transition: color 1s;
+}
+
+#soundcloud-button:hover {
+    background-color: #f0f8ff;
+    transition: background-color 1s;
+}
+
+#soundcloud-button:hover > a {
+    color: #ff7700;
+    transition: color 1s;
+}
+
+@media screen and (max-width: 1024px) {
+    #phoenixfeather {
+        background: url(/media/images/rotated-arm.webp) no-repeat center center;
+        background-size: contain;
+        max-width: 100vw;
+        max-height: 75vh;
+        min-height: 75vh;
+        min-width: 100vw;
+    }
+
+    #enter-site {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0%;
+        width: 70%;
+        height: 7.5vh;
+        font-size: 40px;
+        border-radius: 50px;
+        background-color: rgb(197, 197, 197);
+        border-color: black;
+
+    }
+
+    #enter-site > a {
+        color: #383C7B;
+    }
+
+    #index-nav {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #linkedin-button {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        width: 70%;
+        height: 6vh;
+        font-size: 35px;
+        border-radius: 50px;
+        border-color: black;
+
+    }
+
+    #github-button {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        width: 70%;
+        height: 6vh;
+        font-size: 35px;
+        border-radius: 50px;
+        border-color: black;
+
+    }
+
+    #soundcloud-button {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0%;
+        margin-bottom: 10px;
+        width: 70%;
+        height: 6vh;
+        font-size: 35px;
+        border-radius: 50px;
+        border-color: black;
+    }
 }
