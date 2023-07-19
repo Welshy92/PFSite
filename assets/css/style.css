@@ -93,6 +93,7 @@ font-family: 'Raleway', sans-serif; - Brand title*/
     font-size: 50px;
     border-radius: 50px;
     background-color: #f0f8ff;
+    transition: background-color 0.5s;
 }
 
 #enter-site > a {
@@ -123,7 +124,7 @@ font-family: 'Raleway', sans-serif; - Brand title*/
 .index-button {
     font-size: 30px;
     margin: 0 20px 0 20px;
-    background: none;
+    background-color: rgba(255, 255, 255, 0.0);
     border-radius: 12px;
 }
 
