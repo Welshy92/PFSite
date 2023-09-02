@@ -5,6 +5,10 @@ font-family: 'Raleway', sans-serif; - Brand title*/
 
 /* Base styling */
 
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
 .body-class {
     background-color: #2E3045;
     padding-top: 75px;
@@ -75,6 +79,50 @@ font-family: 'Raleway', sans-serif; - Brand title*/
     color: #f0f8ff;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+/*  General Page Layouts */
+
+.body-structure > p {
+    padding-left: 13%;
+    padding-right: 13%;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.body-structure > .my-h2 {
+    padding-left: 11%;
+    padding-right: 11%;
+    font-size: 37px;
+    padding-top: 15px;
+}
+
+.body-structure > .my-h3 {
+    padding-left: 12%;
+    padding-right: 12%;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.my-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+}
+
+.my-h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom-div {
+    margin-bottom: 50px;
 }
 
 /* Index specific Styling */
@@ -238,3 +286,13 @@ font-family: 'Raleway', sans-serif; - Brand title*/
         border-color: black;
     }
 }
+
+/* Home Specific Styling */
+
+/*  Contact Me Specific Styling */
+
+/* Projects Specific Styling  */
+
+/*   */
+
+/*   */
