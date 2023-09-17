@@ -90,6 +90,11 @@ body {
     padding-top: 5px;
 }
 
+.body-structure > hr {
+    width: 80%;
+    margin-left: 10%;
+ }
+
 .body-structure > .my-h2 {
     padding-left: 11%;
     padding-right: 11%;
