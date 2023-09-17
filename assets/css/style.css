@@ -125,6 +125,10 @@ body {
     margin-bottom: 50px;
 }
 
+.my-h3 > a {
+    color: aqua;
+}
+
 /* Index specific Styling */
 #phoenixfeather {
     background: url(../../media/images/base-arm.webp) no-repeat center center;
