@@ -11,3 +11,7 @@
 
 * V1.2:
   * Fixed footer scaling and hr being off-centred due to code merge.
+
+* V1.3:
+  * Fixed footer height scaling.
+  * Removed empty div on projects page causing some weirdness with the footer at lower widths.
