@@ -28,17 +28,21 @@ body {
     position: fixed !important;
     top: 0;
     width: 100%;
+    z-index: 6;
 }
 
 .nav-link, .logo-text {
     color: #f0f8ff !important;
     font-size: 20px !important;
+    z-index: 6;
+
 }
 
 .nav-right {
     position: fixed;
     right: 0 !important;
     padding-right: 25px;
+    z-index: 6;
 }
 
 @media screen and (max-width: 991px) {
@@ -52,7 +56,7 @@ body {
     font-size: 28px !important;
 }
 
-/* Navigation Styling */
+/* Footer Styling */
 
 .foot {
     position: fixed;
@@ -66,12 +70,13 @@ body {
     margin: 0;
     border-top: 20px solid #2E3045;
     list-style: none;
+    height: 50px;
 }
 
 .foot > li {
     color: #f0f8ff;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .foot > li > a {
@@ -81,13 +86,48 @@ body {
     padding-right: 5px;
 }
 
+/* Footer Media Queries */
+
+@media screen and (max-width: 815px) {
+    .foot {
+        position: relative;
+        border-top: 0px;
+    }
+
+    .bottom-div {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .foot > li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
 /*  General Page Layouts */
+
+.body-structure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .body-structure > p {
     padding-left: 13%;
     padding-right: 13%;
     font-size: 20px;
     padding-top: 5px;
+    text-align: justify;
 }
 
 .body-structure > .my-h2 {
@@ -113,12 +153,27 @@ body {
     padding-top: 25px;
 }
 
+@media screen and (max-width: 1260px) {
+    .my-h1 {
+        text-align: center;
+    }    
+}
+
 .my-h2 {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
 .my-h3 {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
+}
+
+.full-image {
+    max-width: 70%;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .bottom-div {
