@@ -384,6 +384,53 @@ body {
 
 /* Home Specific Styling */
 
+#intro {
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#intro > p {
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#qualification {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media screen and (max-width: 1500px) {
+    #intro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #qualification {
+        width: 600px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    #intro > p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #qualification {
+        width: 100%;
+    }
+}
+
 /*  Contact Me Specific Styling */
 
 /* Projects Specific Styling  */
